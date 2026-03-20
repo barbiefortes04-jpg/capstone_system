@@ -1,0 +1,15 @@
+.env
+.env.backup
+.env.wsl.bak
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Built assets
+/public/build/
+/public/storage/
+
+# OS files
+.DS_Store
+Thumbs.db
