@@ -146,10 +146,7 @@
                 </div>
             @endif
 
-            <form method="POST" action="/logout">
-                @csrf
-                <button class="logout" type="submit">Log Out</button>
-            </form>
+            
         </div>
     </section>
 </main>

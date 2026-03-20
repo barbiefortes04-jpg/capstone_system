@@ -182,10 +182,7 @@
             <h2 style="margin-top: 14px;">Bookmarked Literature</h2>
             <div class="bookmarks" id="bookmarksList"></div>
 
-            <form method="POST" action="/logout">
-                @csrf
-                <button class="logout" type="submit">Log Out</button>
-            </form>
+            
         </div>
     </section>
 </main>

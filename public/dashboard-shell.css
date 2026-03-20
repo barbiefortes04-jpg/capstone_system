@@ -100,6 +100,18 @@ body {
     justify-content: center;
 }
 
+.logout-form { display: inline-flex; align-items: center; }
+.logout-btn {
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--text);
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 .workspace {
     display: grid;
     grid-template-columns: 280px minmax(0, 1fr);

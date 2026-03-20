@@ -112,10 +112,7 @@
                 </div>
             </section>
 
-            <form method="POST" action="/logout">
-                @csrf
-                <button class="logout" type="submit">Log Out</button>
-            </form>
+            
         </aside>
     </section>
 </main>

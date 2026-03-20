@@ -37,6 +37,10 @@
                     <div class="profile-dept">{{ $department }}</div>
                 </div>
             </div>
+            <form method="POST" action="/logout" class="logout-form" style="margin-left:8px;">
+                @csrf
+                <button class="logout-btn" type="submit">Log Out</button>
+            </form>
             @if(!empty($actionLabel ?? ''))
                 @if(!empty($actionHref ?? ''))
                     <a
